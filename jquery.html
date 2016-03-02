@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			div {
+				background-color: blue;
+				width: 100%;
+				height: 100px;
+				margin: 20px;
+				position: relative;
+
+			.left {
+
+			}	
+
+
+			}
+		</style>		
+	</head>
+	<body>
+		<div class= "left"</div>
+		<div class= "right"</div>
+		<div class= "left"></div>
+		<div class= "right"></div>
+		<divclass= "left"></div>
+
+		<script src="jquery-2.2.1.js"></script>
+		<script>
+
+			$(document).ready(function() {
+
+				$("div").click(function(){
+
+						$("div.left").animate({
+							left: "-100%"
+						}, 2000);
+					
+
+					});
+				});
+		;
+
+		</script>
+
+	</body>
+</html>	
